@@ -1,0 +1,72 @@
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.content {
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: light;
+}
+
+.slogan {
+  font-size: 1rem;
+  font-weight: light;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d32f2f;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://github.com/Workintech/fsweb-s8-challenge-pizza/blob/main/Assets/Iteration-1-assets/home-banner.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  width: 1280;
+  height: 720;
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+  }
+}
