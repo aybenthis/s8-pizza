@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-import "./SuccessPage.css";
-import "./PizzaLandingPage.css";
 
 function App() {
   const [size, setSize] = useState("");
