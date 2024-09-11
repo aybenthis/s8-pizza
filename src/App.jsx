@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./SuccessPage.css";
+import "./PizzaLandingPage.css";
 
 function App() {
   const [size, setSize] = useState("");
@@ -147,5 +149,28 @@ function App() {
     </div>
   );
 }
+const LandingPage = () => {
+  const navigate = useNavigate();
+
+  const handleOrderClick = () => {
+    navigate("/order-confirmation");
+  };
+
+  return (
+    <div className="landing-page">
+      <div className="content">
+        <h1 className="title">Teknolojik Yemekler</h1>
+        <div className="slogan">
+          <h2>KOD AÇIKTIRIR</h2>
+          <h2>PİZZA, DOYURUR</h2>
+        </div>
+        <button className="cta-button" onClick={handleOrderClick}>
+          AÇIKTIM
+        </button>
+      </div>
+      <div className="background-image"></div>
+    </div>
+  );
+};
 
 export default App;

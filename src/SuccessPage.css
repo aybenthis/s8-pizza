@@ -1,0 +1,21 @@
+/* SuccessPage.css */
+.success-container {
+  height: 100vh; /* Tam ekran yüksekliği */
+  display: flex; /* Flexbox kullanarak içeriği ortalarız */
+  flex-direction: column; /* İçerikleri dikey olarak hizalar */
+  justify-content: center; /* Dikey merkezleme */
+  align-items: center; /* Yatay merkezleme */
+  background-color: #ce2829; /* Arka plan rengi */
+  color: white; /* Metin rengi */
+  text-align: center; /* Metinleri ortalar */
+  font-family: "Arial", sans-serif; /* Font ailesi */
+}
+
+h1 {
+  margin-bottom: 0.5em; /* Başlık ile paragraf arasında boşluk */
+  font-size: 2em; /* Başlık font boyutu */
+}
+
+p {
+  font-size: 1.5em; /* Paragraf font boyutu */
+}
